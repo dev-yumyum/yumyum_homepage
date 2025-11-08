@@ -8,23 +8,7 @@ function App() {
           <div className="logo-container">
             <h1 className="logo">냠냠픽업</h1>
             <div className="character">
-              <svg width="60" height="60" viewBox="0 0 233 166" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g>
-                  <circle cx="116" cy="83" r="70" fill="#FFC107"/>
-                  <ellipse cx="95" cy="75" rx="3" ry="8" fill="#000"/>
-                  <ellipse cx="137" cy="75" rx="3" ry="8" fill="#000"/>
-                  <path d="M 95 90 Q 116 105 137 90" stroke="#000" strokeWidth="3" fill="none" strokeLinecap="round"/>
-                  <path d="M 100 70 Q 95 65 90 68" stroke="#000" strokeWidth="2" fill="none" strokeLinecap="round"/>
-                  <path d="M 132 70 Q 137 65 142 68" stroke="#000" strokeWidth="2" fill="none" strokeLinecap="round"/>
-                  <rect x="30" y="50" width="35" height="45" rx="5" fill="#FFF" stroke="#000" strokeWidth="2"/>
-                  <path d="M 35 45 L 40 50 L 45 45" stroke="#000" strokeWidth="2" fill="none" strokeLinecap="round"/>
-                  <ellipse cx="60" cy="130" rx="15" ry="8" fill="#FFC107"/>
-                  <ellipse cx="172" cy="130" rx="15" ry="8" fill="#FFC107"/>
-                  <path d="M 50 125 L 45 135 L 55 140" stroke="#000" strokeWidth="2" fill="none" strokeLinecap="round"/>
-                  <path d="M 162 125 L 157 135 L 167 140" stroke="#000" strokeWidth="2" fill="none" strokeLinecap="round"/>
-                  <ellipse cx="145" cy="95" rx="8" ry="4" fill="#FF6B00" opacity="0.3"/>
-                </g>
-              </svg>
+              <img src="/yumyum-1.png" alt="냠냠 캐릭터" />
             </div>
           </div>
           <nav className="nav">

@@ -53,6 +53,11 @@
   animation: bounce 2s ease-in-out infinite;
 }
 
+.character img {
+  width: 60px;
+  height: auto;
+}
+
 @keyframes bounce {
   0%, 100% {
     transform: translateY(0);
