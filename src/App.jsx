@@ -51,48 +51,8 @@ function App() {
               </p>
             </div>
             <div className="feature-image">
-              <div className="mock-phone">
-                <div className="phone-screen">
-                  <div className="phone-header">
-                    <span className="time">9:41</span>
-                    <div className="phone-icons">
-                      <span className="bell-icon">🔔</span>
-                      <span className="cart-icon">🛒</span>
-                    </div>
-                  </div>
-                  <div className="phone-banner">
-                    <span className="banner-emoji">😋</span>
-                    <p>친구 추천하면 포인트 쿠폰 받으시는 나도 받아!</p>
-                  </div>
-                  <div className="phone-categories">
-                    <div className="category-item">
-                      <div className="category-icon">🍔</div>
-                      <span>햄버거</span>
-                    </div>
-                    <div className="category-item">
-                      <div className="category-icon">🍕</div>
-                      <span>피자</span>
-                    </div>
-                    <div className="category-item">
-                      <div className="category-icon">🍗</div>
-                      <span>치킨</span>
-                    </div>
-                    <div className="category-item">
-                      <div className="category-icon">🍰</div>
-                      <span>카페</span>
-                    </div>
-                  </div>
-                  <div className="phone-section-title">
-                    <h4>내 주변 님과 맛집</h4>
-                  </div>
-                  <div className="restaurant-card">
-                    <img src="data:image/svg+xml,%3Csvg width='180' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='180' height='100' fill='%23FFE8CC'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='%23FF6B00' font-size='14' font-family='sans-serif'%3E맛있는 음식%3C/text%3E%3C/svg%3E" alt="음식" />
-                    <div className="restaurant-info">
-                      <h5>맥도날드 용암점</h5>
-                      <p>⭐ 4.8 (24) · 0.3km · 무료 · 배달비무료</p>
-                    </div>
-                  </div>
-                </div>
+              <div className="mock-phone app-screenshot">
+                <img src="/main.png" alt="사전 주문 시스템 화면" className="app-screen-image" />
               </div>
             </div>
           </div>
@@ -101,38 +61,8 @@ function App() {
         <section className="feature-section gray">
           <div className="feature-card reverse">
             <div className="feature-image">
-              <div className="mock-phone">
-                <div className="phone-screen">
-                  <div className="search-bar">
-                    <input type="text" placeholder="🔍 맛집, 메뉴 검색" />
-                  </div>
-                  <div className="restaurant-list">
-                    <div className="restaurant-list-card">
-                      <img src="data:image/svg+xml,%3Csvg width='80' height='80' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='80' height='80' fill='%23FFE8CC' rx='8'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' font-size='24'%3E🍔%3C/text%3E%3C/svg%3E" alt="햄버거" />
-                      <div className="restaurant-list-info">
-                        <h5>맥도날드 용암점</h5>
-                        <p>⭐ 4.8 (24)</p>
-                        <span className="distance">0.3km · 무료</span>
-                      </div>
-                    </div>
-                    <div className="restaurant-list-card">
-                      <img src="data:image/svg+xml,%3Csvg width='80' height='80' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='80' height='80' fill='%23FFE8CC' rx='8'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' font-size='24'%3E🍕%3C/text%3E%3C/svg%3E" alt="피자" />
-                      <div className="restaurant-list-info">
-                        <h5>도미노피자</h5>
-                        <p>⭐ 4.5 (18)</p>
-                        <span className="distance">0.5km · 무료</span>
-                      </div>
-                    </div>
-                    <div className="restaurant-list-card">
-                      <img src="data:image/svg+xml,%3Csvg width='80' height='80' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='80' height='80' fill='%23FFE8CC' rx='8'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' font-size='24'%3E🍗%3C/text%3E%3C/svg%3E" alt="치킨" />
-                      <div className="restaurant-list-info">
-                        <h5>BBQ치킨</h5>
-                        <p>⭐ 4.7 (32)</p>
-                        <span className="distance">0.7km · 무료</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <div className="mock-phone app-screenshot">
+                <img src="/카테고리.png" alt="다양한 맛집 화면" className="app-screen-image" />
               </div>
             </div>
             <div className="feature-content">
