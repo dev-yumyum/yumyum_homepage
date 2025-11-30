@@ -101,109 +101,6 @@ function App() {
         <section className="feature-section gray">
           <div className="feature-card reverse">
             <div className="feature-image">
-              <div className="mock-phone app-screenshot">
-                <img src="/어플상세페이지.png" alt="할인 메뉴 선택 화면" className="app-screen-image" />
-              </div>
-            </div>
-            <div className="feature-content">
-              <h3 className="feature-title">
-                다양한 할인 메뉴 선택으로<br />
-                <strong>합리적인 가격</strong>
-              </h3>
-              <p className="feature-description">
-                매일 새로운 할인 메뉴를 만나보세요.<br />
-                원하는 메뉴를 더 저렴하게 주문할 수 있어요.<br />
-                즉시 할인부터 쿠폰까지 다양한 혜택을 제공합니다.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <section className="feature-section">
-          <div className="feature-card">
-            <div className="feature-content">
-              <h3 className="feature-title">
-                <strong>실시간 조리 현황</strong><br />
-                한눈에 확인
-              </h3>
-              <p className="feature-description">
-                주문부터 조리 완료까지 실시간으로 확인하세요.<br />
-                정확한 픽업 시간을 알려드려 시간을 아껴드려요.
-              </p>
-            </div>
-            <div className="feature-image">
-              <div className="mock-phone">
-                <div className="phone-screen">
-                  <div className="phone-header">
-                    <span className="time">9:41</span>
-                    <div className="phone-icons">
-                      <span className="signal">📶</span>
-                    </div>
-                  </div>
-                  <div className="order-status-header">
-                    <button className="back-btn">←</button>
-                    <h3>주문 현황</h3>
-                    <div className="empty-space"></div>
-                  </div>
-                  <div className="order-status-content">
-                    <div className="order-type">포장 주문</div>
-                    <div className="order-main-status">
-                      <h4>매장에서 주문 확인중</h4>
-                      <p className="time-estimate">⏱ 20분 소요 예상</p>
-                    </div>
-                    <div className="order-progress-steps">
-                      <div className="progress-step active">
-                        <div className="step-icon">🛒</div>
-                        <span className="step-label">주문확인</span>
-                        <span className="step-time">12:21</span>
-                      </div>
-                      <div className="progress-line"></div>
-                      <div className="progress-step">
-                        <div className="step-icon inactive">👨‍🍳</div>
-                        <span className="step-label">준비중</span>
-                      </div>
-                      <div className="progress-line"></div>
-                      <div className="progress-step">
-                        <div className="step-icon inactive">📦</div>
-                        <span className="step-label">픽업대기</span>
-                      </div>
-      </div>
-                    <button className="cancel-order-btn">
-                      <span>주문취소</span>
-                      <small>조리를 시작하면 취소할 수 없습니다.</small>
-        </button>
-                    <div className="store-info">
-                      <div className="store-header">
-                        <img src="data:image/svg+xml,%3Csvg width='30' height='30' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='15' cy='15' r='15' fill='%23FFC107'/%3E%3C/svg%3E" alt="store" />
-                        <span>픽업 그린</span>
-                        <span className="store-arrow">›</span>
-                        <div className="favorite">♡</div>
-                      </div>
-                      <div className="store-map">
-                        <div className="map-placeholder">지도</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="feature-section">
-          <div className="feature-card">
-            <div className="feature-content">
-              <h3 className="feature-title">
-                <strong>다양한 맛집</strong>을<br />
-                한곳에서
-              </h3>
-              <p className="feature-description">
-                우리 동네 인기 맛집부터 숨은 맛집까지<br />
-                냠냠픽업에서 쉽게 발견하고 주문하세요.<br />
-                리뷰와 평점으로 믿을 수 있는 선택을 도와드려요.
-        </p>
-      </div>
-            <div className="feature-image">
               <div className="mock-phone">
                 <div className="phone-screen">
                   <div className="search-bar">
@@ -237,6 +134,58 @@ function App() {
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="feature-content">
+              <h3 className="feature-title">
+                <strong>다양한 맛집</strong>을<br />
+                한곳에서
+              </h3>
+              <p className="feature-description">
+                우리 동네 인기 맛집부터 숨은 맛집까지<br />
+                냠냠픽업에서 쉽게 발견하고 주문하세요.<br />
+                리뷰와 평점으로 믿을 수 있는 선택을 도와드려요.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="feature-section">
+          <div className="feature-card">
+            <div className="feature-content">
+              <h3 className="feature-title">
+                다양한 할인 메뉴 선택으로<br />
+                <strong>합리적인 가격</strong>
+              </h3>
+              <p className="feature-description">
+                매일 새로운 할인 메뉴를 만나보세요.<br />
+                원하는 메뉴를 더 저렴하게 주문할 수 있어요.<br />
+                즉시 할인부터 쿠폰까지 다양한 혜택을 제공합니다.
+              </p>
+            </div>
+            <div className="feature-image">
+              <div className="mock-phone app-screenshot">
+                <img src="/어플상세페이지.png" alt="할인 메뉴 선택 화면" className="app-screen-image" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="feature-section gray">
+          <div className="feature-card reverse">
+            <div className="feature-image">
+              <div className="mock-phone app-screenshot">
+                <img src="/주문화면이지미1.png" alt="실시간 조리 현황 화면" className="app-screen-image" />
+              </div>
+            </div>
+            <div className="feature-content">
+              <h3 className="feature-title">
+                <strong>실시간 조리 현황</strong><br />
+                한눈에 확인
+              </h3>
+              <p className="feature-description">
+                주문부터 조리 완료까지 실시간으로 확인하세요.<br />
+                정확한 픽업 시간을 알려드려 시간을 아껴드려요.
+              </p>
             </div>
           </div>
         </section>
