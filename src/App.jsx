@@ -102,6 +102,108 @@ function App() {
           <div className="feature-card reverse">
             <div className="feature-image">
               <div className="mock-phone">
+                <div className="phone-screen discount-screen">
+                  <div className="phone-header">
+                    <span className="time">9:41</span>
+                    <div className="phone-icons">
+                      <span>📶</span>
+                      <span>❤️</span>
+                    </div>
+                  </div>
+                  <div className="store-detail-header">
+                    <img src="data:image/svg+xml,%3Csvg width='100%25' height='200' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23FF6B00;stop-opacity:0.8' /%3E%3Cstop offset='100%25' style='stop-color:%23FFC107;stop-opacity:0.8' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100%25' height='200' fill='url(%23grad)'/%3E%3C/svg%3E" alt="매장" className="store-banner" />
+                    <div className="store-title-section">
+                      <h3>픽업그린 문전역점</h3>
+                      <div className="store-rating">
+                        <span>⭐ 5.0 (400)</span>
+                        <span className="store-distance">매장정보·원산지</span>
+                      </div>
+                      <div className="store-meta">
+                        <span>픽업시간</span>
+                        <span className="meta-value">10-15분 예상</span>
+                      </div>
+                      <div className="store-meta">
+                        <span>즉시할인</span>
+                        <span className="meta-value highlight">2,000원</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="menu-tabs">
+                    <button className="menu-tab">인기메뉴</button>
+                    <button className="menu-tab active">신제품</button>
+                    <button className="menu-tab">Combo</button>
+                    <button className="menu-tab">Single</button>
+                  </div>
+                  <div className="menu-list">
+                    <div className="menu-item">
+                      <div className="menu-item-info">
+                        <h5>멕시칸 치킨 라이스볼</h5>
+                        <p className="menu-ingredients">닭안심, 청미채, 치킨텐더비...</p>
+                        <div className="menu-price">
+                          <span className="price-current">12,500원</span>
+                          <span className="price-original">14,500원</span>
+                        </div>
+                        <div className="menu-rating">👍 98% (141)</div>
+                      </div>
+                      <div className="menu-item-image">
+                        <img src="data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100' height='100' fill='%23FFE8CC' rx='8'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' font-size='32'%3E🥗%3C/text%3E%3C/svg%3E" alt="메뉴" />
+                        <button className="cart-add-btn">🛒</button>
+                      </div>
+                    </div>
+                    <div className="menu-item">
+                      <div className="menu-item-info">
+                        <h5>구운닭가슴살 샐러드</h5>
+                        <p className="menu-ingredients">양상추, 적양배추, 옥수수...</p>
+                        <div className="menu-price">
+                          <span className="price-current">12,500원</span>
+                          <span className="price-original">14,500원</span>
+                        </div>
+                        <div className="menu-rating">👍 88% (23)</div>
+                      </div>
+                      <div className="menu-item-image">
+                        <img src="data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100' height='100' fill='%23FFE8CC' rx='8'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' font-size='32'%3E🥗%3C/text%3E%3C/svg%3E" alt="메뉴" />
+                        <div className="item-count-badge">10</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="cart-bottom-bar">
+                    <div className="cart-info">
+                      <span className="cart-badge">10</span>
+                      <span className="cart-total">125,000원</span>
+                    </div>
+                    <button className="view-cart-btn">카트 보기</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="feature-content">
+              <h3 className="feature-title">
+                다양한 할인 메뉴 선택으로<br />
+                <strong>합리적인 가격</strong>
+              </h3>
+              <p className="feature-description">
+                매일 새로운 할인 메뉴를 만나보세요.<br />
+                원하는 메뉴를 더 저렴하게 주문할 수 있어요.<br />
+                즉시 할인부터 쿠폰까지 다양한 혜택을 제공합니다.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="feature-section">
+          <div className="feature-card">
+            <div className="feature-content">
+              <h3 className="feature-title">
+                <strong>실시간 조리 현황</strong><br />
+                한눈에 확인
+              </h3>
+              <p className="feature-description">
+                주문부터 조리 완료까지 실시간으로 확인하세요.<br />
+                정확한 픽업 시간을 알려드려 시간을 아껴드려요.
+              </p>
+            </div>
+            <div className="feature-image">
+              <div className="mock-phone">
                 <div className="phone-screen">
                   <div className="phone-header">
                     <span className="time">9:41</span>
@@ -155,16 +257,6 @@ function App() {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="feature-content">
-              <h3 className="feature-title">
-                <strong>실시간 조리 현황</strong><br />
-                한눈에 확인
-              </h3>
-              <p className="feature-description">
-                주문부터 조리 완료까지 실시간으로 확인하세요.<br />
-                정확한 픽업 시간을 알려드려 시간을 아껴드려요.
-              </p>
             </div>
           </div>
         </section>
