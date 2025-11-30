@@ -56,8 +56,6 @@
 .character img {
   width: 60px;
   height: auto;
-  background: transparent;
-  mix-blend-mode: multiply;
 }
 
 @keyframes bounce {
