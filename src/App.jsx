@@ -23,7 +23,6 @@ function App() {
         {/* 히어로 섹션 */}
         <section className="hero">
           <div className="hero-content">
-            <h2 className="hero-subtitle">커뮤니케이션</h2>
             <h1 className="hero-title">
               빠르게 주문하고<br />
               간편하게 픽업하는<br />
