@@ -1045,6 +1045,7 @@
 }
 
 .contact-btn {
+  display: inline-block;
   padding: 18px 60px;
   font-size: 18px;
   font-weight: 600;
@@ -1053,12 +1054,13 @@
   border: none;
   border-radius: 12px;
   cursor: pointer;
+  text-decoration: none;
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .contact-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(255, 107, 0, 0.3);
+  box-shadow: 0 8px 20px rgba(255, 133, 0, 0.3);
 }
 
 /* Footer */

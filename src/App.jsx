@@ -174,7 +174,7 @@ function App() {
                 <p>신규 고객 유입</p>
               </div>
             </div>
-            <button className="contact-btn">입점 신청하기</button>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfW92Mjk0H241vr9hcq4I0T9LE7DCYmFI-VyNnNxg7g1KfDCg/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="contact-btn">입점 신청하기</a>
           </div>
         </section>
       </main>
