@@ -8,7 +8,7 @@ function App() {
           <div className="logo-container">
             <h1 className="logo">냠냠픽업</h1>
             <div className="character">
-              <img src="/냠냠케릭터.png" alt="냠냠 캐릭터" />
+              <img src="/yumyum-1.png" alt="냠냠 캐릭터" />
             </div>
           </div>
           <nav className="nav">
