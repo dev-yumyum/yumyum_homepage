@@ -88,7 +88,7 @@ function App() {
         </section>
 
         <section className="feature-section gray">
-          <div className="feature-card reverse">
+          <div className="feature-card">
             <div className="feature-image">
               <div className="mock-phone app-screenshot">
                 <img src="/카테고리.png" alt="다양한 맛집 화면" className="app-screen-image" />
