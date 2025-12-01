@@ -68,7 +68,12 @@ function App() {
 
         {/* 서비스 소개 섹션 */}
         <section id="service" className="feature-section">
-          <div className="feature-card">
+          <div className="feature-card reverse">
+            <div className="feature-image">
+              <div className="mock-phone app-screenshot">
+                <img src="/main.png" alt="사전 주문 시스템 화면" className="app-screen-image" />
+              </div>
+            </div>
             <div className="feature-content">
               <h3 className="feature-title">
                 기다림 없이 빠른<br />
@@ -78,11 +83,6 @@ function App() {
                 원하는 메뉴를 미리 주문하고, 도착 시간에 맞춰 픽업하세요.<br />
                 줄 서지 않고 바로 받아가는 편리함을 경험할 수 있어요.
               </p>
-            </div>
-            <div className="feature-image">
-              <div className="mock-phone app-screenshot">
-                <img src="/main.png" alt="사전 주문 시스템 화면" className="app-screen-image" />
-              </div>
             </div>
           </div>
         </section>
@@ -109,7 +109,12 @@ function App() {
         </section>
 
         <section className="feature-section">
-          <div className="feature-card">
+          <div className="feature-card reverse">
+            <div className="feature-image">
+              <div className="mock-phone app-screenshot">
+                <img src="/어플상세페이지.png" alt="할인 메뉴 선택 화면" className="app-screen-image" />
+              </div>
+            </div>
             <div className="feature-content">
               <h3 className="feature-title">
                 다양한 할인 메뉴 선택으로<br />
@@ -120,11 +125,6 @@ function App() {
                 원하는 메뉴를 더 저렴하게 주문할 수 있어요.<br />
                 즉시 할인부터 쿠폰까지 다양한 혜택을 제공합니다.
               </p>
-            </div>
-            <div className="feature-image">
-              <div className="mock-phone app-screenshot">
-                <img src="/어플상세페이지.png" alt="할인 메뉴 선택 화면" className="app-screen-image" />
-              </div>
             </div>
           </div>
         </section>
