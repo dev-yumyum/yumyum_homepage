@@ -112,15 +112,9 @@ function App() {
               <img src="/Yamu.png" alt="냠냠 캐릭터 Yamu" />
             </div>
             <div className="hero-text">
-              <h1 className="hero-title">
-                빠르게 주문하고<br />
-                간편하게 픽업하는
-              </h1>
+              <h1 className="hero-title">빠르게 주문하고 간편하게 픽업하는</h1>
               <p className="hero-subtitle">냠냠픽업</p>
-              <p className="hero-description">
-                음식 주문의 새로운 기준<br />
-                기다림 없이 바로 픽업하세요.
-              </p>
+              <p className="hero-description">음식 주문의 새로운 기준, 기다림 없이 바로 픽업하세요.</p>
               <div className="app-download-buttons">
                 <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer" className="download-btn">
                   <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ko-kr?size=250x83&amp;releaseDate=1301875200" alt="Download on the App Store" />
@@ -141,13 +135,10 @@ function App() {
           <div className="feature-card">
             <div className="feature-content">
               <h3 className="feature-title">
-                기다림 없이 빠른<br />
-                <strong>사전 주문 시스템</strong>
+                기다림 없이 빠른 <strong>사전 주문 시스템</strong>
               </h3>
               <p className="feature-description">
-                원하는 메뉴를 미리 주문하고,<br />
-                도착 시간에 맞춰 픽업하세요.<br />
-                줄 서지 않고 바로 받아가는 편리함을 경험하세요.
+                원하는 메뉴를 미리 주문하고 도착 시간에 맞춰 픽업하세요.
               </p>
             </div>
             <div className="feature-image">
@@ -167,13 +158,10 @@ function App() {
             </div>
             <div className="feature-content">
               <h3 className="feature-title">
-                <strong>다양한 맛집</strong>을<br />
-                한곳에서
+                <strong>다양한 맛집</strong>을 한곳에서
               </h3>
               <p className="feature-description">
-                우리 동네 인기 맛집부터<br />
-                숨은 맛집까지 쉽게 발견하고 주문하세요.<br />
-                리뷰와 평점으로 믿을 수 있는 선택을 도와드립니다.
+                우리 동네 인기 맛집부터 숨은 맛집까지, 리뷰와 평점으로 쉽게 선택하세요.
               </p>
             </div>
           </div>
@@ -183,13 +171,10 @@ function App() {
           <div className="feature-card">
             <div className="feature-content">
               <h3 className="feature-title">
-                다양한 할인 메뉴 선택으로<br />
-                <strong>합리적인 가격</strong>
+                다양한 할인 메뉴로 <strong>합리적인 가격</strong>
               </h3>
               <p className="feature-description">
-                매일 새로운 할인 메뉴를 만나보세요.<br />
-                원하는 메뉴를 더 저렴하게 주문하고,<br />
-                즉시 할인부터 쿠폰까지 다양한 혜택을 받으세요.
+                매일 새로운 할인 메뉴와 즉시 할인부터 쿠폰까지 다양한 혜택을 받으세요.
               </p>
             </div>
             <div className="feature-image">
@@ -204,13 +189,10 @@ function App() {
           <div className="feature-card">
             <div className="feature-content">
               <h3 className="feature-title">
-                <strong>실시간 조리 현황</strong><br />
-                한눈에 확인
+                <strong>실시간 조리 현황</strong> 한눈에 확인
               </h3>
               <p className="feature-description">
-                주문부터 조리 완료까지<br />
-                실시간으로 확인하세요.<br />
-                정확한 픽업 시간을 알려드립니다.
+                주문부터 조리 완료까지 실시간으로 확인하고 정확한 픽업 시간을 알려드립니다.
               </p>
             </div>
             <div className="feature-image">
