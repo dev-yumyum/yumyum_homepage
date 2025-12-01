@@ -1233,17 +1233,25 @@ html {
 
 .download-btn {
   display: inline-block;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   flex: 0 0 auto;
   width: 180px;
   height: 60px;
   overflow: hidden;
+  border-radius: 8px;
+  background: #000;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.download-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .download-btn img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
 }
 
@@ -1433,6 +1441,7 @@ html {
   .download-btn {
     width: 165px;
     height: 55px;
+    border-radius: 7px;
   }
 
   .footer {
@@ -1590,6 +1599,7 @@ html {
   .download-btn {
     width: 150px;
     height: 50px;
+    border-radius: 6px;
   }
 
   .footer {

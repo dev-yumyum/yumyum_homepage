@@ -117,10 +117,10 @@ function App() {
               <p className="hero-description">음식 주문의 새로운 기준, 기다림 없이 바로 픽업하세요.</p>
               <div className="app-download-buttons">
                 <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer" className="download-btn">
-                  <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ko-kr?size=250x83&amp;releaseDate=1301875200" alt="Download on the App Store" />
+                  <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/ko-kr?size=250x83&amp;releaseDate=1301875200" alt="Download on the App Store" />
                 </a>
                 <a href="https://play.google.com" target="_blank" rel="noopener noreferrer" className="download-btn">
-                  <img src="https://play.google.com/intl/ko/badges/static/images/badges/ko_badge_web_generic.png" alt="Google Play에서 다운로드" />
+                  <img src="https://play.google.com/intl/en/badges/static/images/badges/ko_badge_web_generic.png" alt="Google Play에서 다운로드" />
                 </a>
               </div>
             </div>
