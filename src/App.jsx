@@ -298,7 +298,9 @@ function App() {
       <footer className="footer">
         <div className="footer-content">
           <div className="footer-info">
-            <h3>냠냠픽업</h3>
+            <h3 className="footer-logo">
+              <img src="/yumyum_pickyp_logotype.png" alt="냠냠픽업" />
+            </h3>
             <p>© (주)우공이산. All rights reserved.</p>
           </div>
           <div className="footer-links">

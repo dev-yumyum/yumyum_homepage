@@ -1276,9 +1276,13 @@ html {
 }
 
 .footer-info h3 {
-  font-size: 20px;
   margin-bottom: 8px;
-  color: #FF8500;
+}
+
+.footer-logo img {
+  height: 28px;
+  width: auto;
+  display: block;
 }
 
 .footer-info p {
