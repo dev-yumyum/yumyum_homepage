@@ -61,7 +61,7 @@ html {
   align-items: center;
   animation: bounce 2s ease-in-out infinite;
   flex-shrink: 0;
-  margin-left: 8px;
+  margin-left: 12px;
 }
 
 .character img {
