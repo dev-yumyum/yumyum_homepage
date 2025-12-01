@@ -1,7 +1,9 @@
 import './App.css'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 function App() {
+  const [activeSection, setActiveSection] = useState('hero');
+
   useEffect(() => {
     const observerOptions = {
       threshold: 0.1,
@@ -24,10 +26,39 @@ function App() {
       observer.observe(el);
     });
 
+    // 섹션 활성화 감지
+    const sectionObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActiveSection(entry.target.id);
+          }
+        });
+      },
+      { threshold: 0.5 }
+    );
+
+    const sections = document.querySelectorAll('section[id]');
+    sections.forEach((section) => sectionObserver.observe(section));
+
     return () => {
       phoneElements.forEach(el => observer.unobserve(el));
+      sections.forEach((section) => sectionObserver.unobserve(section));
     };
   }, []);
+
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    element?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const scrollToNext = () => {
+    const sections = ['hero', 'service', 'app', 'contact'];
+    const currentIndex = sections.indexOf(activeSection);
+    if (currentIndex < sections.length - 1) {
+      scrollToSection(sections[currentIndex + 1]);
+    }
+  };
 
   return (
     <div className="app">
@@ -47,9 +78,33 @@ function App() {
         </div>
       </header>
 
+      {/* 우측 네비게이션 바 */}
+      <nav className="side-nav">
+        <button 
+          className={`side-nav-dot ${activeSection === 'hero' ? 'active' : ''}`}
+          onClick={() => scrollToSection('hero')}
+          aria-label="홈으로 이동"
+        />
+        <button 
+          className={`side-nav-dot ${activeSection === 'service' ? 'active' : ''}`}
+          onClick={() => scrollToSection('service')}
+          aria-label="서비스 소개로 이동"
+        />
+        <button 
+          className={`side-nav-dot ${activeSection === 'app' ? 'active' : ''}`}
+          onClick={() => scrollToSection('app')}
+          aria-label="앱 소개로 이동"
+        />
+        <button 
+          className={`side-nav-dot ${activeSection === 'contact' ? 'active' : ''}`}
+          onClick={() => scrollToSection('contact')}
+          aria-label="입점 문의로 이동"
+        />
+      </nav>
+
       <main className="main">
         {/* 히어로 섹션 */}
-        <section className="hero">
+        <section id="hero" className="hero">
           <div className="hero-content">
             <div className="hero-character">
               <img src="/Yamu.png" alt="냠냠 캐릭터 Yamu" />
@@ -65,8 +120,19 @@ function App() {
                 기다림 없이 바로 픽업하는<br />
                 스마트한 주문 경험을 시작하세요.
               </p>
+              <div className="app-download-buttons">
+                <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer" className="download-btn">
+                  <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ko-kr?size=250x83&amp;releaseDate=1301875200" alt="Download on the App Store" />
+                </a>
+                <a href="https://play.google.com" target="_blank" rel="noopener noreferrer" className="download-btn">
+                  <img src="https://play.google.com/intl/ko/badges/static/images/badges/ko_badge_web_generic.png" alt="Google Play에서 다운로드" />
+                </a>
+              </div>
             </div>
           </div>
+          <button className="scroll-down-btn" onClick={scrollToNext} aria-label="다음 섹션으로">
+            <span className="arrow-down">↓</span>
+          </button>
         </section>
 
         {/* 서비스 소개 섹션 */}
@@ -150,6 +216,9 @@ function App() {
               </div>
             </div>
           </div>
+          <button className="scroll-down-btn" onClick={scrollToNext} aria-label="다음 섹션으로">
+            <span className="arrow-down">↓</span>
+          </button>
         </section>
 
         {/* 앱 소개 섹션 */}
@@ -178,11 +247,18 @@ function App() {
                 <p>주문할수록<br />쌓이는 포인트</p>
               </div>
             </div>
-            <div className="download-buttons">
-              <button className="download-btn apple">App Store</button>
-              <button className="download-btn google">Google Play</button>
+            <div className="app-download-buttons">
+              <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer" className="download-btn">
+                <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/ko-kr?size=250x83&amp;releaseDate=1301875200" alt="Download on the App Store" />
+              </a>
+              <a href="https://play.google.com" target="_blank" rel="noopener noreferrer" className="download-btn">
+                <img src="https://play.google.com/intl/ko/badges/static/images/badges/ko_badge_web_generic.png" alt="Google Play에서 다운로드" />
+              </a>
             </div>
           </div>
+          <button className="scroll-down-btn scroll-down-light" onClick={scrollToNext} aria-label="다음 섹션으로">
+            <span className="arrow-down">↓</span>
+          </button>
         </section>
 
         {/* 입점 문의 섹션 */}
@@ -211,23 +287,23 @@ function App() {
               </div>
             </div>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfW92Mjk0H241vr9hcq4I0T9LE7DCYmFI-VyNnNxg7g1KfDCg/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="contact-btn">입점 신청하기</a>
-            
-            <footer className="footer-embedded">
-              <div className="footer-content">
-                <div className="footer-info">
-                  <h3>냠냠픽업</h3>
-                  <p>© (주)우공이산. All rights reserved.</p>
-                </div>
-                <div className="footer-links">
-                  <a href="#terms">이용약관</a>
-                  <a href="/privacy.html" target="_blank" rel="noopener noreferrer">개인정보처리방침</a>
-                  <a href="#support">고객센터</a>
-                </div>
-              </div>
-            </footer>
           </div>
         </section>
       </main>
+
+      <footer className="footer">
+        <div className="footer-content">
+          <div className="footer-info">
+            <h3>냠냠픽업</h3>
+            <p>© (주)우공이산. All rights reserved.</p>
+          </div>
+          <div className="footer-links">
+            <a href="#terms">이용약관</a>
+            <a href="/privacy.html" target="_blank" rel="noopener noreferrer">개인정보처리방침</a>
+            <a href="#support">고객센터</a>
+          </div>
+        </div>
+      </footer>
     </div>
   )
 }
