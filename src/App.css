@@ -1449,12 +1449,15 @@ html {
   }
 
   .logo-container {
-    gap: 8px;
+    gap: 12px;
   }
 
-  /* 모바일에서 캐릭터 숨김 */
   .character {
-    display: none;
+    margin-left: 4px;
+  }
+
+  .character img {
+    width: 45px;
   }
 
   .nav {
@@ -1606,9 +1609,16 @@ html {
     font-size: 18px;
   }
 
-  /* 모바일에서 캐릭터 숨김 */
+  .logo-container {
+    gap: 10px;
+  }
+
   .character {
-    display: none;
+    margin-left: 2px;
+  }
+
+  .character img {
+    width: 40px;
   }
 
   .nav {
