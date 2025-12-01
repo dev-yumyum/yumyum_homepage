@@ -112,13 +112,12 @@ function App() {
             <div className="hero-text">
               <h1 className="hero-title">
                 빠르게 주문하고<br />
-                간편하게 픽업하는<br />
-                냠냠픽업
+                간편하게 픽업하는
               </h1>
+              <p className="hero-subtitle">냠냠픽업</p>
               <p className="hero-description">
-                음식 주문의 새로운 기준, 냠냠픽업<br />
-                기다림 없이 바로 픽업하는<br />
-                스마트한 주문 경험을 시작하세요.
+                음식 주문의 새로운 기준,<br />
+                기다림 없이 바로 픽업하세요.
               </p>
               <div className="app-download-buttons">
                 <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer" className="download-btn">

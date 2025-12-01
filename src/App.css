@@ -176,17 +176,25 @@ html {
 }
 
 .hero-title {
-  font-size: 56px;
-  font-weight: 700;
+  font-size: 48px;
+  font-weight: 600;
   color: #1a1a1a;
-  margin-bottom: 30px;
-  line-height: 1.3;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+
+.hero-subtitle {
+  font-size: 64px;
+  font-weight: 800;
+  color: #FF8500;
+  margin: 0 0 24px 0;
+  line-height: 1.2;
 }
 
 .hero-description {
-  font-size: 18px;
+  font-size: 20px;
   color: #666;
-  line-height: 1.8;
+  line-height: 1.6;
   margin-bottom: 40px;
 }
 
@@ -1324,11 +1332,15 @@ html {
   }
 
   .hero-title {
-    font-size: 38px;
+    font-size: 36px;
+  }
+
+  .hero-subtitle {
+    font-size: 52px;
   }
 
   .hero-description {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .feature-section {
@@ -1452,6 +1464,10 @@ html {
   .hero-title {
     font-size: 28px;
     line-height: 1.4;
+  }
+
+  .hero-subtitle {
+    font-size: 42px;
   }
 
   .hero-description {
@@ -1589,11 +1605,16 @@ html {
   }
 
   .hero-title {
-    font-size: 24px;
+    font-size: 22px;
+  }
+
+  .hero-subtitle {
+    font-size: 36px;
+    margin-bottom: 20px;
   }
 
   .hero-description {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .feature-title {
