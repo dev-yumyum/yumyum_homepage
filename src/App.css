@@ -244,22 +244,6 @@
   transform: translateY(0);
 }
 
-.feature-section:nth-child(2) .mock-phone {
-  transition-delay: 0.1s;
-}
-
-.feature-section:nth-child(3) .mock-phone {
-  transition-delay: 0.2s;
-}
-
-.feature-section:nth-child(4) .mock-phone {
-  transition-delay: 0.3s;
-}
-
-.feature-section:nth-child(5) .mock-phone {
-  transition-delay: 0.4s;
-}
-
 .mock-phone::before {
   content: '';
   position: absolute;

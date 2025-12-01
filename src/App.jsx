@@ -19,7 +19,10 @@ function App() {
     const observer = new IntersectionObserver(observerCallback, observerOptions);
     
     const phoneElements = document.querySelectorAll('.mock-phone');
-    phoneElements.forEach(el => observer.observe(el));
+    phoneElements.forEach((el, index) => {
+      el.style.transitionDelay = `${index * 0.1}s`;
+      observer.observe(el);
+    });
 
     return () => {
       phoneElements.forEach(el => observer.unobserve(el));
