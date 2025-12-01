@@ -89,13 +89,65 @@
 /* Hero Section */
 .hero {
   padding: 120px 40px;
-  text-align: center;
   background: #FFF4C9;
 }
 
 .hero-content {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.hero-character {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-character img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  animation: float 3s ease-in-out infinite, fadeInLeft 1s ease-out;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px) translateY(0);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.hero-text {
+  flex: 1;
+  animation: fadeInRight 1s ease-out;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .hero-subtitle {
@@ -182,6 +234,30 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.mock-phone.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.feature-section:nth-child(2) .mock-phone {
+  transition-delay: 0.1s;
+}
+
+.feature-section:nth-child(3) .mock-phone {
+  transition-delay: 0.2s;
+}
+
+.feature-section:nth-child(4) .mock-phone {
+  transition-delay: 0.3s;
+}
+
+.feature-section:nth-child(5) .mock-phone {
+  transition-delay: 0.4s;
 }
 
 .mock-phone::before {
@@ -1107,6 +1183,19 @@
 
 /* Responsive */
 @media (max-width: 968px) {
+  .hero-content {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .hero-character img {
+    max-width: 300px;
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+
   .hero-title {
     font-size: 42px;
   }
@@ -1144,6 +1233,19 @@
 
   .hero {
     padding: 80px 20px;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .hero-character img {
+    max-width: 250px;
+  }
+
+  .hero-text {
+    text-align: center;
   }
 
   .hero-title {

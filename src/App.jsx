@@ -1,6 +1,31 @@
 import './App.css'
+import { useEffect } from 'react'
 
 function App() {
+  useEffect(() => {
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observerCallback = (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
+    
+    const phoneElements = document.querySelectorAll('.mock-phone');
+    phoneElements.forEach(el => observer.observe(el));
+
+    return () => {
+      phoneElements.forEach(el => observer.unobserve(el));
+    };
+  }, []);
+
   return (
     <div className="app">
       <header className="header">
@@ -8,7 +33,7 @@ function App() {
           <div className="logo-container">
             <h1 className="logo">냠냠픽업</h1>
             <div className="character">
-              <img src="/yumyum-1.png" alt="냠냠 캐릭터" />
+              <img src="/Yami.png" alt="냠냠 캐릭터" />
             </div>
           </div>
           <nav className="nav">
@@ -23,16 +48,21 @@ function App() {
         {/* 히어로 섹션 */}
         <section className="hero">
           <div className="hero-content">
-            <h1 className="hero-title">
-              빠르게 주문하고<br />
-              간편하게 픽업하는<br />
-              냠냠픽업
-            </h1>
-            <p className="hero-description">
-              음식 주문의 새로운 기준, 냠냠픽업<br />
-              기다림 없이 바로 픽업하는<br />
-              스마트한 주문 경험을 시작하세요.
-            </p>
+            <div className="hero-character">
+              <img src="/Yamu.png" alt="냠냠 캐릭터 Yamu" />
+            </div>
+            <div className="hero-text">
+              <h1 className="hero-title">
+                빠르게 주문하고<br />
+                간편하게 픽업하는<br />
+                냠냠픽업
+              </h1>
+              <p className="hero-description">
+                음식 주문의 새로운 기준, 냠냠픽업<br />
+                기다림 없이 바로 픽업하는<br />
+                스마트한 주문 경험을 시작하세요.
+              </p>
+            </div>
           </div>
         </section>
 
