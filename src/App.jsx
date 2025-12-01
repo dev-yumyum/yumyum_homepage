@@ -88,7 +88,12 @@ function App() {
         </section>
 
         <section className="feature-section gray">
-          <div className="feature-card">
+          <div className="feature-card reverse">
+            <div className="feature-image">
+              <div className="mock-phone app-screenshot">
+                <img src="/카테고리.png" alt="다양한 맛집 화면" className="app-screen-image" />
+              </div>
+            </div>
             <div className="feature-content">
               <h3 className="feature-title">
                 <strong>다양한 맛집</strong>을<br />
@@ -99,11 +104,6 @@ function App() {
                 냠냠픽업에서 쉽게 발견하고 주문하세요.<br />
                 리뷰와 평점으로 믿을 수 있는 선택을 도와드려요.
               </p>
-            </div>
-            <div className="feature-image">
-              <div className="mock-phone app-screenshot">
-                <img src="/카테고리.png" alt="다양한 맛집 화면" className="app-screen-image" />
-              </div>
             </div>
           </div>
         </section>
