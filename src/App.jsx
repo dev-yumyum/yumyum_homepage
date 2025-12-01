@@ -155,7 +155,7 @@ function App() {
         {/* 앱 소개 섹션 */}
         <section id="app" className="app-section">
           <div className="app-content">
-            <h2 className="section-title">냠냠픽업 앱</h2>
+            <h2 className="section-title">냠냠픽업 App</h2>
             <div className="app-features">
               <div className="app-feature-item">
                 <div className="app-icon">📱</div>
