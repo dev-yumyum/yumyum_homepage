@@ -109,7 +109,7 @@
 
 .hero-character img {
   width: 100%;
-  max-width: 400px;
+  max-width: 280px;
   height: auto;
   animation: float 3s ease-in-out infinite, fadeInLeft 1s ease-out;
 }
@@ -1189,7 +1189,7 @@
   }
 
   .hero-character img {
-    max-width: 300px;
+    max-width: 210px;
   }
 
   .hero-text {
@@ -1241,7 +1241,7 @@
   }
 
   .hero-character img {
-    max-width: 250px;
+    max-width: 175px;
   }
 
   .hero-text {
