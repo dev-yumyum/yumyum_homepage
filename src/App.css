@@ -46,14 +46,18 @@ html {
 }
 
 .logo {
-  font-size: 28px;
-  font-weight: 700;
-  color: #FF8500;
   margin: 0;
-  white-space: nowrap;
   flex-shrink: 0;
   position: relative;
   z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 35px;
+  width: auto;
+  display: block;
 }
 
 .character {
@@ -1310,8 +1314,8 @@ html {
     padding: 0 30px;
   }
 
-  .logo {
-    font-size: 22px;
+  .logo img {
+    height: 30px;
   }
 
   .logo-container {
@@ -1452,8 +1456,8 @@ html {
     padding: 0 20px;
   }
 
-  .logo {
-    font-size: 19px;
+  .logo img {
+    height: 26px;
   }
 
   .logo-container {
@@ -1615,8 +1619,8 @@ html {
     padding: 0 16px;
   }
 
-  .logo {
-    font-size: 18px;
+  .logo img {
+    height: 24px;
   }
 
   .logo-container {

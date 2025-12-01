@@ -65,7 +65,9 @@ function App() {
       <header className="header">
         <div className="header-content">
           <div className="logo-container">
-            <h1 className="logo">냠냠픽업</h1>
+            <h1 className="logo">
+              <img src="/yumyum_pickyp_logotype.png" alt="냠냠픽업" />
+            </h1>
             <div className="character">
               <img src="/Yami.png" alt="냠냠 캐릭터" />
             </div>
