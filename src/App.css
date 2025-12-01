@@ -1192,7 +1192,16 @@
 }
 
 /* Responsive */
+/* Tablet devices (968px and down) */
 @media (max-width: 968px) {
+  .header-content {
+    padding: 0 30px;
+  }
+
+  .hero {
+    padding: 100px 30px;
+  }
+
   .hero-content {
     flex-direction: column;
     gap: 60px;
@@ -1207,13 +1216,39 @@
   }
 
   .hero-title {
-    font-size: 42px;
+    font-size: 38px;
+  }
+
+  .hero-description {
+    font-size: 17px;
+  }
+
+  .feature-section {
+    padding: 80px 30px;
   }
 
   .feature-card,
   .feature-card.reverse {
     flex-direction: column;
-    gap: 40px;
+    gap: 50px;
+  }
+
+  .feature-title {
+    font-size: 32px;
+  }
+
+  .mock-phone {
+    width: 280px;
+    height: 560px;
+  }
+
+  .app-section,
+  .contact-section {
+    padding: 80px 30px;
+  }
+
+  .section-title {
+    font-size: 38px;
   }
 
   .app-features {
@@ -1222,6 +1257,11 @@
 
   .contact-benefits {
     grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .footer {
+    padding: 50px 30px;
   }
 
   .footer-content {
@@ -1232,26 +1272,43 @@
 }
 
 @media (max-width: 640px) {
+  .header {
+    padding: 15px 0;
+  }
+
   .header-content {
+    padding: 0 20px;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .character img {
+    width: 50px;
   }
 
   .nav {
-    gap: 20px;
+    gap: 15px;
+  }
+
+  .nav a {
+    font-size: 14px;
   }
 
   .hero {
-    padding: 80px 20px;
+    padding: 60px 20px;
   }
 
   .hero-content {
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
   }
 
   .hero-character img {
-    max-width: 175px;
+    max-width: 150px;
   }
 
   .hero-text {
@@ -1259,19 +1316,59 @@
   }
 
   .hero-title {
-    font-size: 32px;
+    font-size: 28px;
+    line-height: 1.4;
+  }
+
+  .hero-description {
+    font-size: 16px;
   }
 
   .feature-section {
-    padding: 60px 20px;
+    padding: 50px 20px;
+  }
+
+  .feature-card {
+    gap: 40px;
   }
 
   .feature-title {
-    font-size: 28px;
+    font-size: 24px;
+  }
+
+  .feature-description {
+    font-size: 16px;
+  }
+
+  .mock-phone {
+    width: 260px;
+    height: 520px;
+  }
+
+  .section-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+
+  .section-title-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .app-section,
+  .contact-section {
+    padding: 60px 20px;
   }
 
   .app-features {
     grid-template-columns: 1fr;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+
+  .contact-description {
+    font-size: 16px;
+    margin-bottom: 40px;
   }
 
   .download-buttons {
@@ -1280,5 +1377,82 @@
 
   .download-btn {
     width: 100%;
+  }
+
+  .contact-btn {
+    padding: 16px 50px;
+    font-size: 16px;
+  }
+
+  .footer {
+    padding: 40px 20px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-links {
+    gap: 20px;
+  }
+}
+
+/* Extra small devices (phones, 480px and down) */
+@media (max-width: 480px) {
+  .logo {
+    font-size: 18px;
+  }
+
+  .character img {
+    width: 45px;
+  }
+
+  .hero-title {
+    font-size: 24px;
+  }
+
+  .hero-description {
+    font-size: 14px;
+  }
+
+  .feature-title {
+    font-size: 22px;
+  }
+
+  .feature-description {
+    font-size: 14px;
+  }
+
+  .mock-phone {
+    width: 240px;
+    height: 480px;
+  }
+
+  .section-title {
+    font-size: 28px;
+    gap: 12px;
+  }
+
+  .section-title-icon {
+    width: 35px;
+    height: 35px;
+  }
+
+  .app-icon {
+    font-size: 40px;
+  }
+
+  .app-feature-item h4 {
+    font-size: 18px;
+  }
+
+  .contact-benefits {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .benefit-item {
+    padding: 30px 20px;
   }
 }
