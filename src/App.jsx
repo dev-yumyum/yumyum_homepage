@@ -219,11 +219,11 @@ function App() {
         <div className="footer-content">
           <div className="footer-info">
             <h3>냠냠픽업</h3>
-            <p>© YumYum Pickup. All rights reserved.</p>
+            <p>© (주)우공이산. All rights reserved.</p>
           </div>
           <div className="footer-links">
             <a href="#terms">이용약관</a>
-            <a href="#privacy">개인정보처리방침</a>
+            <a href="/privacy.html" target="_blank" rel="noopener noreferrer">개인정보처리방침</a>
             <a href="#support">고객센터</a>
           </div>
         </div>

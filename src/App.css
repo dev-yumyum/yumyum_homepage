@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
 .app {
   font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -90,6 +96,10 @@
 .hero {
   padding: 120px 40px;
   background: #FFF4C9;
+  scroll-snap-align: start;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .hero-content {
@@ -177,6 +187,10 @@
 /* Feature Sections */
 .feature-section {
   padding: 100px 40px;
+  scroll-snap-align: start;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .feature-section.gray {
@@ -981,6 +995,11 @@
   padding: 100px 40px;
   background: #1a1a1a;
   color: white;
+  scroll-snap-align: start;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .app-content {
@@ -1068,6 +1087,11 @@
 .contact-section {
   padding: 100px 40px;
   background: #FFF4C9;
+  scroll-snap-align: start;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact-content {
