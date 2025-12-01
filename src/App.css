@@ -41,7 +41,7 @@ html {
 .logo-container {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 20px;
   flex-shrink: 0;
 }
 
@@ -52,12 +52,16 @@ html {
   margin: 0;
   white-space: nowrap;
   flex-shrink: 0;
+  position: relative;
+  z-index: 1;
 }
 
 .character {
   display: flex;
   align-items: center;
   animation: bounce 2s ease-in-out infinite;
+  flex-shrink: 0;
+  margin-left: 4px;
 }
 
 .character img {
@@ -1304,7 +1308,11 @@ html {
   }
 
   .logo-container {
-    gap: 12px;
+    gap: 16px;
+  }
+
+  .character {
+    margin-left: 0;
   }
 
   .character img {
