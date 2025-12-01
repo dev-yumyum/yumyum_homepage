@@ -185,7 +185,10 @@ function App() {
         {/* 입점 문의 섹션 */}
         <section id="contact" className="contact-section">
           <div className="contact-content">
-            <h2 className="section-title">입점 문의</h2>
+            <h2 className="section-title">
+              <img src="/Ceo.png" alt="사장님" className="section-title-icon" />
+              입점 문의
+            </h2>
             <p className="contact-description">
               냠냠픽업과 함께 성장하실 사장님을 모십니다.<br />
               간편한 주문 관리와 매출 증대의 기회를 경험하세요.
