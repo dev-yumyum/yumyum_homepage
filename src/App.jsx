@@ -211,23 +211,23 @@ function App() {
               </div>
             </div>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfW92Mjk0H241vr9hcq4I0T9LE7DCYmFI-VyNnNxg7g1KfDCg/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="contact-btn">입점 신청하기</a>
+            
+            <footer className="footer-embedded">
+              <div className="footer-content">
+                <div className="footer-info">
+                  <h3>냠냠픽업</h3>
+                  <p>© (주)우공이산. All rights reserved.</p>
+                </div>
+                <div className="footer-links">
+                  <a href="#terms">이용약관</a>
+                  <a href="/privacy.html" target="_blank" rel="noopener noreferrer">개인정보처리방침</a>
+                  <a href="#support">고객센터</a>
+                </div>
+              </div>
+            </footer>
           </div>
         </section>
       </main>
-
-      <footer className="footer">
-        <div className="footer-content">
-          <div className="footer-info">
-            <h3>냠냠픽업</h3>
-            <p>© (주)우공이산. All rights reserved.</p>
-          </div>
-          <div className="footer-links">
-            <a href="#terms">이용약관</a>
-            <a href="/privacy.html" target="_blank" rel="noopener noreferrer">개인정보처리방침</a>
-            <a href="#support">고객센터</a>
-          </div>
-        </div>
-      </footer>
     </div>
   )
 }
