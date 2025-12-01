@@ -68,12 +68,7 @@ function App() {
 
         {/* 서비스 소개 섹션 */}
         <section id="service" className="feature-section">
-          <div className="feature-card reverse">
-            <div className="feature-image">
-              <div className="mock-phone app-screenshot">
-                <img src="/main.png" alt="사전 주문 시스템 화면" className="app-screen-image" />
-              </div>
-            </div>
+          <div className="feature-card">
             <div className="feature-content">
               <h3 className="feature-title">
                 기다림 없이 빠른<br />
@@ -84,16 +79,16 @@ function App() {
                 줄 서지 않고 바로 받아가는 편리함을 경험할 수 있어요.
               </p>
             </div>
+            <div className="feature-image">
+              <div className="mock-phone app-screenshot">
+                <img src="/main.png" alt="사전 주문 시스템 화면" className="app-screen-image" />
+              </div>
+            </div>
           </div>
         </section>
 
         <section className="feature-section gray">
-          <div className="feature-card reverse">
-            <div className="feature-image">
-              <div className="mock-phone app-screenshot">
-                <img src="/카테고리.png" alt="다양한 맛집 화면" className="app-screen-image" />
-              </div>
-            </div>
+          <div className="feature-card">
             <div className="feature-content">
               <h3 className="feature-title">
                 <strong>다양한 맛집</strong>을<br />
@@ -104,6 +99,11 @@ function App() {
                 냠냠픽업에서 쉽게 발견하고 주문하세요.<br />
                 리뷰와 평점으로 믿을 수 있는 선택을 도와드려요.
               </p>
+            </div>
+            <div className="feature-image">
+              <div className="mock-phone app-screenshot">
+                <img src="/카테고리.png" alt="다양한 맛집 화면" className="app-screen-image" />
+              </div>
             </div>
           </div>
         </section>
@@ -130,12 +130,7 @@ function App() {
         </section>
 
         <section className="feature-section gray">
-          <div className="feature-card reverse">
-            <div className="feature-image">
-              <div className="mock-phone app-screenshot">
-                <img src="/주문화면이지미1.png" alt="실시간 조리 현황 화면" className="app-screen-image" />
-              </div>
-            </div>
+          <div className="feature-card">
             <div className="feature-content">
               <h3 className="feature-title">
                 <strong>실시간 조리 현황</strong><br />
@@ -145,6 +140,11 @@ function App() {
                 주문부터 조리 완료까지 실시간으로 확인하세요.<br />
                 정확한 픽업 시간을 알려드려 시간을 아껴드려요.
               </p>
+            </div>
+            <div className="feature-image">
+              <div className="mock-phone app-screenshot">
+                <img src="/주문화면이지미1.png" alt="실시간 조리 현황 화면" className="app-screen-image" />
+              </div>
             </div>
           </div>
         </section>
