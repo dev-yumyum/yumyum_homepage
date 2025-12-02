@@ -112,10 +112,10 @@ html {
 
 /* Hero Section */
 .hero {
-  padding: 120px 40px;
+  padding: 96px 40px;
   background: #FFF4C9;
   scroll-snap-align: start;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   position: relative;
@@ -126,7 +126,7 @@ html {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  gap: 80px;
+  gap: 64px;
 }
 
 .hero-character {
