@@ -114,7 +114,7 @@ function App() {
             <div className="hero-text">
               <h1 className="hero-title">빠르게 주문하고 간편하게 픽업하는</h1>
               <p className="hero-subtitle">냠냠픽업</p>
-              <p className="hero-description">음식 주문의 새로운 기준, 기다림 없이 바로 픽업하세요.</p>
+              <p className="hero-description">음식 주문의 새로운 기준,<br />기다림 없이 바로 픽업하세요.</p>
               <div className="app-download-buttons">
                 <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer" className="download-btn">
                   <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/ko-kr?size=250x83&amp;releaseDate=1301875200" alt="Download on the App Store" />
@@ -138,7 +138,7 @@ function App() {
                 기다림 없이 빠른 <strong>사전 주문 시스템</strong>
               </h3>
               <p className="feature-description">
-                원하는 메뉴를 미리 주문하고 도착 시간에 맞춰 픽업하세요.
+                원하는 메뉴를 미리 주문하고<br />도착 시간에 맞춰 픽업하세요.
               </p>
             </div>
             <div className="feature-image">
@@ -161,7 +161,7 @@ function App() {
                 <strong>다양한 맛집</strong>을 한곳에서
               </h3>
               <p className="feature-description">
-                우리 동네 인기 맛집부터 숨은 맛집까지, 리뷰와 평점으로 쉽게 선택하세요.
+                우리 동네 인기 맛집부터 숨은 맛집까지,<br />리뷰와 평점으로 쉽게 선택하세요.
               </p>
             </div>
           </div>
@@ -174,7 +174,7 @@ function App() {
                 다양한 할인 메뉴로 <strong>합리적인 가격</strong>
               </h3>
               <p className="feature-description">
-                매일 새로운 할인 메뉴와 즉시 할인부터 쿠폰까지 다양한 혜택을 받으세요.
+                매일 새로운 할인 메뉴와<br />즉시 할인부터 쿠폰까지 다양한 혜택을 받으세요.
               </p>
             </div>
             <div className="feature-image">
@@ -254,8 +254,7 @@ function App() {
               입점 문의
             </h2>
             <p className="contact-description">
-              냠냠픽업과 함께 성장하실<br />
-              사장님을 모십니다.<br />
+              냠냠픽업과 함께 성장하실 사장님을 모십니다.<br />
               간편한 주문 관리와 매출 증대의 기회를 경험하세요.
             </p>
             <div className="contact-benefits">
