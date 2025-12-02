@@ -135,7 +135,7 @@ function App() {
           <div className="feature-card">
             <div className="feature-content">
               <h3 className="feature-title">
-                기다림 없이 빠른 <strong>사전 주문 시스템</strong>
+                기다림없이 빠른!<br /><br /><strong>사전 주문 서비스</strong>
               </h3>
               <p className="feature-description">
                 원하는 메뉴를 미리 주문하고<br />도착 시간에 맞춰 픽업하세요.
@@ -171,7 +171,7 @@ function App() {
           <div className="feature-card">
             <div className="feature-content">
               <h3 className="feature-title">
-                다양한 할인 메뉴로 <strong>합리적인 가격</strong>
+                다양한 할인 메뉴로<br /><strong>합리적인 가격</strong>
               </h3>
               <p className="feature-description">
                 매일 새로운 할인 메뉴와<br />즉시 할인부터 쿠폰까지 다양한 혜택을 받으세요.
@@ -192,7 +192,7 @@ function App() {
                 <strong>실시간 조리 현황</strong> 한눈에 확인
               </h3>
               <p className="feature-description">
-                주문부터 조리 완료까지 실시간으로 확인하고 정확한 픽업 시간을 알려드립니다.
+                주문부터 조리 완료까지 실시간으로 확인하고<br />정확한 픽업 시간을 알려드립니다.
               </p>
             </div>
             <div className="feature-image">
@@ -212,33 +212,25 @@ function App() {
             <h2 className="section-title">냠냠픽업 App</h2>
             <div className="app-features">
               <div className="app-feature-item">
-                <div className="app-icon">📱</div>
+                <div className="app-icon"></div>
                 <h4>간편한 주문</h4>
                 <p>몇 번의 터치만으로<br />손쉽게 주문 완료</p>
               </div>
               <div className="app-feature-item">
-                <div className="app-icon">⏱️</div>
+                <div className="app-icon"></div>
                 <h4>시간 절약</h4>
                 <p>기다림 없이<br />바로 픽업</p>
               </div>
               <div className="app-feature-item">
-                <div className="app-icon">💰</div>
+                <div className="app-icon"></div>
                 <h4>할인 혜택</h4>
                 <p>앱 전용<br />특별 할인</p>
               </div>
               <div className="app-feature-item">
-                <div className="app-icon">⭐</div>
+                <div className="app-icon"></div>
                 <h4>리워드</h4>
                 <p>주문할수록<br />쌓이는 포인트</p>
               </div>
-            </div>
-            <div className="app-download-buttons">
-              <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer" className="download-btn">
-                <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/ko-kr?size=250x83&amp;releaseDate=1301875200" alt="Download on the App Store" />
-              </a>
-              <a href="https://play.google.com" target="_blank" rel="noopener noreferrer" className="download-btn">
-                <img src="https://play.google.com/intl/ko/badges/static/images/badges/ko_badge_web_generic.png" alt="Google Play에서 다운로드" />
-              </a>
             </div>
           </div>
           <button className="scroll-down-btn scroll-down-light" onClick={scrollToNext} aria-label="다음 섹션으로">
