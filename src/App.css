@@ -1015,11 +1015,11 @@ html {
 
 /* App Section */
 .app-section {
-  padding: 100px 40px;
+  padding: 70px 40px;
   background: #1a1a1a;
   color: white;
   scroll-snap-align: start;
-  min-height: 100vh;
+  min-height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1035,7 +1035,7 @@ html {
 .section-title {
   font-size: 52px;
   font-weight: 700;
-  margin-bottom: 60px;
+  margin-bottom: 42px;
   display: flex;
   align-items: center;
   justify-content: center;
