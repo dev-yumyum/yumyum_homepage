@@ -26,6 +26,11 @@ function App() {
       observer.observe(el);
     });
 
+    const featureImages = document.querySelectorAll('.feature-image');
+    featureImages.forEach((el) => {
+      observer.observe(el);
+    });
+
     // 섹션 활성화 감지
     const sectionObserver = new IntersectionObserver(
       (entries) => {
@@ -43,6 +48,7 @@ function App() {
 
     return () => {
       phoneElements.forEach(el => observer.unobserve(el));
+      featureImages.forEach(el => observer.unobserve(el));
       sections.forEach((section) => sectionObserver.unobserve(section));
     };
   }, []);
