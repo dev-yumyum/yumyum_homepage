@@ -141,7 +141,7 @@ function App() {
             </div>
             <div className="feature-image">
               <div className="mock-phone app-screenshot">
-                <img src="/main.png" alt="사전 주문 시스템 화면" className="app-screen-image" />
+                <img src="/yumyum_main.png" alt="사전 주문 시스템 화면" className="app-screen-image" />
               </div>
             </div>
           </div>
@@ -151,7 +151,7 @@ function App() {
           <div className="feature-card">
             <div className="feature-image">
               <div className="mock-phone app-screenshot">
-                <img src="/카테고리.png" alt="다양한 맛집 화면" className="app-screen-image" />
+                <img src="/Categories.png" alt="다양한 맛집 화면" className="app-screen-image" />
               </div>
             </div>
             <div className="feature-content">
@@ -177,7 +177,7 @@ function App() {
             </div>
             <div className="feature-image">
               <div className="mock-phone app-screenshot">
-                <img src="/어플상세페이지.png" alt="할인 메뉴 선택 화면" className="app-screen-image" />
+                <img src="/yumyum_menu.png" alt="할인 메뉴 선택 화면" className="app-screen-image" />
               </div>
             </div>
           </div>
@@ -195,7 +195,7 @@ function App() {
             </div>
             <div className="feature-image">
               <div className="mock-phone app-screenshot">
-                <img src="/주문화면이지미1.png" alt="실시간 조리 현황 화면" className="app-screen-image" />
+                <img src="/yumyum_order.png" alt="실시간 조리 현황 화면" className="app-screen-image" />
               </div>
             </div>
           </div>
