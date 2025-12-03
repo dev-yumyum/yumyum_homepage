@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+/* 이미지 렌더링 품질 개선 */
+img {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
 html {
   scroll-behavior: smooth;
   scroll-snap-type: y proximity;
@@ -141,6 +150,9 @@ html {
   max-width: 280px;
   height: auto;
   animation: float 3s ease-in-out infinite, fadeInLeft 1s ease-out;
+  image-rendering: -webkit-optimize-contrast;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 @keyframes fadeInLeft {
@@ -319,6 +331,9 @@ html {
   object-fit: cover;
   object-position: top center;
   border-radius: 40px;
+  image-rendering: -webkit-optimize-contrast;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 .phone-screen {
