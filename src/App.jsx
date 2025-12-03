@@ -204,6 +204,27 @@ function App() {
           </button>
         </section>
 
+        <section className="feature-section">
+          <div className="feature-card">
+            <div className="feature-content">
+              <h3 className="feature-title">
+                편리한 <strong>주문접수 시스템</strong>
+              </h3>
+              <p className="feature-description">
+                간단한 클릭으로 주문 접수부터 완료까지<br />매출관리도 한번에!
+              </p>
+            </div>
+            <div className="feature-image">
+              <div className="mock-phone app-screenshot">
+                <img src="/주문접수화면.jpeg" alt="주문접수 시스템 화면" className="app-screen-image" />
+              </div>
+            </div>
+          </div>
+          <button className="scroll-down-btn" onClick={scrollToNext} aria-label="다음 섹션으로">
+            <span className="arrow-down">↓</span>
+          </button>
+        </section>
+
         {/* 앱 소개 섹션 */}
         <section id="app" className="app-section">
           <div className="app-content">
