@@ -151,7 +151,7 @@ function App() {
           <div className="feature-card">
             <div className="feature-image">
               <div className="mock-phone app-screenshot">
-                <img src="/Categories.png" alt="다양한 맛집 화면" className="app-screen-image" />
+                <img src="/Category All.png" alt="다양한 맛집 화면" className="app-screen-image" />
               </div>
             </div>
             <div className="feature-content">
