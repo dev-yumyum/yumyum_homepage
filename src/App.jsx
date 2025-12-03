@@ -185,6 +185,11 @@ function App() {
 
         <section className="feature-section gray">
           <div className="feature-card">
+            <div className="feature-image">
+              <div className="mock-phone app-screenshot">
+                <img src="/yumyum_order.png" alt="실시간 조리 현황 화면" className="app-screen-image" />
+              </div>
+            </div>
             <div className="feature-content">
               <h3 className="feature-title">
                 <strong>실시간 조리 현황</strong> 한눈에 확인
@@ -192,11 +197,6 @@ function App() {
               <p className="feature-description">
                 주문부터 조리 완료까지 실시간으로 확인하고<br />정확한 픽업 시간을 알려드립니다.
               </p>
-            </div>
-            <div className="feature-image">
-              <div className="mock-phone app-screenshot">
-                <img src="/yumyum_order.png" alt="실시간 조리 현황 화면" className="app-screen-image" />
-              </div>
             </div>
           </div>
           <button className="scroll-down-btn" onClick={scrollToNext} aria-label="다음 섹션으로">
