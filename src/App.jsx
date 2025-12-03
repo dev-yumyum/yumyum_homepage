@@ -215,8 +215,8 @@ function App() {
               </p>
             </div>
             <div className="feature-image">
-              <div className="mock-phone app-screenshot">
-                <img src="/주문접수화면.jpeg" alt="주문접수 시스템 화면" className="app-screen-image" />
+              <div className="full-screen-image">
+                <img src="/주문접수화면.jpeg" alt="주문접수 시스템 화면" />
               </div>
             </div>
           </div>
