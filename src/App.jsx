@@ -124,7 +124,9 @@ function App() {
             </div>
           </div>
           <button className="scroll-down-btn" onClick={scrollToNext} aria-label="다음 섹션으로">
-            <img src="/Down.png" alt="다음" className="arrow-down" />
+            <svg className="arrow-down" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 10L12 15L17 10" stroke="#FF8500" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
           </button>
         </section>
 
@@ -200,7 +202,9 @@ function App() {
             </div>
           </div>
           <button className="scroll-down-btn" onClick={scrollToNext} aria-label="다음 섹션으로">
-            <img src="/Down.png" alt="다음" className="arrow-down" />
+            <svg className="arrow-down" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 10L12 15L17 10" stroke="#FF8500" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
           </button>
         </section>
 
@@ -221,7 +225,9 @@ function App() {
             </div>
           </div>
           <button className="scroll-down-btn" onClick={scrollToNext} aria-label="다음 섹션으로">
-            <img src="/Down.png" alt="다음" className="arrow-down" />
+            <svg className="arrow-down" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 10L12 15L17 10" stroke="#FF8500" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
           </button>
         </section>
 
@@ -244,7 +250,9 @@ function App() {
             </div>
           </div>
           <button className="scroll-down-btn" onClick={scrollToNext} aria-label="다음 섹션으로">
-            <img src="/Down.png" alt="다음" className="arrow-down" />
+            <svg className="arrow-down" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 10L12 15L17 10" stroke="#FF8500" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
           </button>
         </section>
 
@@ -276,7 +284,9 @@ function App() {
             </div>
           </div>
           <button className="scroll-down-btn scroll-down-light" onClick={scrollToNext} aria-label="다음 섹션으로">
-            <img src="/Down.png" alt="다음" className="arrow-down" />
+            <svg className="arrow-down" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 10L12 15L17 10" stroke="#FFFFFF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
           </button>
         </section>
 
