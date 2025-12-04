@@ -1241,7 +1241,7 @@ html {
 }
 
 .scroll-down-light .arrow-down {
-  filter: brightness(0) invert(1);
+  filter: none;
 }
 
 .arrow-down {
@@ -1249,6 +1249,7 @@ html {
   height: 40px;
   display: block;
   object-fit: contain;
+  filter: brightness(0) saturate(100%) invert(43%) sepia(93%) saturate(2578%) hue-rotate(0deg) brightness(102%) contrast(104%);
 }
 
 @keyframes bounce {
