@@ -1240,10 +1240,15 @@ html {
   animation: bounce 2s infinite;
 }
 
+.scroll-down-light .arrow-down {
+  color: white;
+}
+
 .arrow-down {
-  width: 80px;
-  height: 80px;
+  font-size: 40px;
+  color: #FF8500;
   display: block;
+  line-height: 1;
 }
 
 @keyframes bounce {
@@ -1467,8 +1472,7 @@ html {
   }
 
   .arrow-down {
-    width: 64px;
-    height: 64px;
+    font-size: 32px;
   }
 
   .app-download-buttons {
@@ -1623,8 +1627,7 @@ html {
   }
 
   .arrow-down {
-    width: 56px;
-    height: 56px;
+    font-size: 28px;
   }
 
   .app-download-buttons {
