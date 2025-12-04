@@ -124,7 +124,7 @@ function App() {
             </div>
           </div>
           <button className="scroll-down-btn" onClick={scrollToNext} aria-label="다음 섹션으로">
-            <span className="arrow-down">↓</span>
+            <img src="/Down.png" alt="다음" className="arrow-down" />
           </button>
         </section>
 
@@ -200,7 +200,7 @@ function App() {
             </div>
           </div>
           <button className="scroll-down-btn" onClick={scrollToNext} aria-label="다음 섹션으로">
-            <span className="arrow-down">↓</span>
+            <img src="/Down.png" alt="다음" className="arrow-down" />
           </button>
         </section>
 
@@ -221,7 +221,7 @@ function App() {
             </div>
           </div>
           <button className="scroll-down-btn" onClick={scrollToNext} aria-label="다음 섹션으로">
-            <span className="arrow-down">↓</span>
+            <img src="/Down.png" alt="다음" className="arrow-down" />
           </button>
         </section>
 
@@ -244,7 +244,7 @@ function App() {
             </div>
           </div>
           <button className="scroll-down-btn" onClick={scrollToNext} aria-label="다음 섹션으로">
-            <span className="arrow-down">↓</span>
+            <img src="/Down.png" alt="다음" className="arrow-down" />
           </button>
         </section>
 
@@ -276,7 +276,7 @@ function App() {
             </div>
           </div>
           <button className="scroll-down-btn scroll-down-light" onClick={scrollToNext} aria-label="다음 섹션으로">
-            <span className="arrow-down">↓</span>
+            <img src="/Down.png" alt="다음" className="arrow-down" />
           </button>
         </section>
 

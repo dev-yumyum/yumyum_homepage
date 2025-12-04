@@ -1241,14 +1241,14 @@ html {
 }
 
 .scroll-down-light .arrow-down {
-  color: white;
+  filter: brightness(0) invert(1);
 }
 
 .arrow-down {
-  font-size: 40px;
-  color: #FF8500;
+  width: 40px;
+  height: 40px;
   display: block;
-  line-height: 1;
+  object-fit: contain;
 }
 
 @keyframes bounce {
@@ -1472,7 +1472,8 @@ html {
   }
 
   .arrow-down {
-    font-size: 32px;
+    width: 32px;
+    height: 32px;
   }
 
   .app-download-buttons {
@@ -1627,7 +1628,8 @@ html {
   }
 
   .arrow-down {
-    font-size: 28px;
+    width: 28px;
+    height: 28px;
   }
 
   .app-download-buttons {
