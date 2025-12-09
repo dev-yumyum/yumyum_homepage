@@ -138,9 +138,14 @@ html {
 
 .hero-character img {
   width: 100%;
-  max-width: 280px;
+  max-width: 400px;
   height: auto;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
   animation: float 3s ease-in-out infinite, fadeInLeft 1s ease-out;
+  image-rendering: -webkit-optimize-contrast;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 @keyframes fadeInLeft {
@@ -1445,7 +1450,7 @@ html {
   }
 
   .hero-character img {
-    max-width: 210px;
+    max-width: 320px;
   }
 
   .hero-text {
@@ -1584,7 +1589,9 @@ html {
   }
 
   .hero-character img {
-    max-width: 150px;
+    max-width: 280px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
   }
 
   .hero-text {
