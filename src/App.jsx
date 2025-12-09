@@ -129,25 +129,6 @@ function App() {
           </button>
         </section>
 
-        {/* 서비스 소개 섹션 */}
-        <section id="service" className="feature-section">
-          <div className="feature-card">
-            <div className="feature-content">
-              <h3 className="feature-title">
-                기다림없이 빠른!<br /><br /><strong>사전 주문 서비스</strong>
-              </h3>
-              <p className="feature-description">
-                원하는 메뉴를 미리 주문하고<br />도착 시간에 맞춰 픽업하세요.
-              </p>
-            </div>
-            <div className="feature-image">
-              <div className="mock-phone app-screenshot">
-                <img src="/yumyum_main.png" alt="사전 주문 시스템 화면" className="app-screen-image" />
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* 사장님 입점문의 섹션 */}
         <section className="feature-section store-inquiry-section">
           <div className="feature-card">
@@ -167,6 +148,25 @@ function App() {
               <Link to="/store" className="store-inquiry-button">
                 입점 상세보기 →
               </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* 서비스 소개 섹션 */}
+        <section id="service" className="feature-section">
+          <div className="feature-card">
+            <div className="feature-content">
+              <h3 className="feature-title">
+                기다림없이 빠른!<br /><br /><strong>사전 주문 서비스</strong>
+              </h3>
+              <p className="feature-description">
+                원하는 메뉴를 미리 주문하고<br />도착 시간에 맞춰 픽업하세요.
+              </p>
+            </div>
+            <div className="feature-image">
+              <div className="mock-phone app-screenshot">
+                <img src="/yumyum_main.png" alt="사전 주문 시스템 화면" className="app-screen-image" />
+              </div>
             </div>
           </div>
         </section>
