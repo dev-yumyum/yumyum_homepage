@@ -207,47 +207,89 @@
   line-height: 1.7;
 }
 
-/* CTA Section */
-.store-cta-section {
+/* Contact Section */
+.store-contact-section {
   padding: 100px 40px;
-  background: linear-gradient(135deg, #FF8500 0%, #FFA500 100%);
+  background: #FFF4C9;
   text-align: center;
 }
 
-.store-cta-content {
-  max-width: 800px;
+.store-contact-content {
+  max-width: 900px;
   margin: 0 auto;
 }
 
-.store-cta-title {
-  font-size: 48px;
-  font-weight: 700;
-  color: white;
+.store-contact-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
   margin-bottom: 20px;
 }
 
-.store-cta-description {
-  font-size: 20px;
-  color: rgba(255, 255, 255, 0.9);
-  margin-bottom: 40px;
+.contact-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
 }
 
-.store-cta-button-large {
-  display: inline-block;
-  padding: 20px 60px;
-  background: white;
-  color: #FF8500;
+.store-contact-title {
+  font-size: 52px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.store-contact-description {
   font-size: 20px;
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 60px;
+}
+
+.store-contact-benefits {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.benefit-card {
+  background: white;
+  padding: 48px 36px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.benefit-card h3 {
+  font-size: 24px;
+  color: #FF8500;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.benefit-card p {
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+}
+
+.store-contact-button {
+  display: inline-block;
+  padding: 18px 60px;
+  background: #FF8500;
+  color: white;
+  font-size: 18px;
   font-weight: 600;
   border-radius: 12px;
   text-decoration: none;
   transition: transform 0.2s, box-shadow 0.2s;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 20px rgba(255, 133, 0, 0.3);
 }
 
-.store-cta-button-large:hover {
+.store-contact-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 30px rgba(255, 133, 0, 0.4);
 }
 
 /* Footer */
@@ -316,8 +358,13 @@
     font-size: 32px;
   }
 
-  .store-cta-title {
+  .store-contact-title {
     font-size: 36px;
+  }
+
+  .store-contact-benefits {
+    grid-template-columns: 1fr;
+    gap: 30px;
   }
 }
 
@@ -328,7 +375,7 @@
 
   .store-hero,
   .store-feature-section,
-  .store-cta-section {
+  .store-contact-section {
     padding: 60px 20px;
   }
 
@@ -344,8 +391,23 @@
     font-size: 24px;
   }
 
-  .store-cta-title {
+  .store-contact-title {
     font-size: 28px;
+  }
+
+  .contact-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .store-contact-description {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+  .store-contact-button {
+    padding: 16px 50px;
+    font-size: 16px;
   }
 
   .store-footer-content {

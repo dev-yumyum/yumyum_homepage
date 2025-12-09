@@ -58,18 +58,57 @@ function StorePage() {
           </div>
         </section>
 
-        {/* CTA 섹션 */}
-        <section className="store-cta-section">
-          <div className="store-cta-content">
-            <h2 className="store-cta-title">지금 바로 시작하세요!</h2>
-            <p className="store-cta-description">
-              냠냠픽업과 함께 매출을 올려보세요
+        {/* 매출관리 섹션 */}
+        <section className="store-feature-section">
+          <div className="store-feature-content">
+            <div className="store-feature-image">
+              <div className="desktop-screen">
+                <img src="/매출분석1.png" alt="매출관리" />
+              </div>
+            </div>
+            <div className="store-feature-text">
+              <h2 className="store-feature-title">
+                <strong>매출관리</strong>
+              </h2>
+              <p className="store-feature-description">
+                더 이상 감이 아닌 데이터로 보세요<br /><br />
+                가장 잘 팔리는 메뉴부터 시간대별 매출 흐름까지<br />
+                사장님이 궁금한 모든 매출 인사이트를 한눈에 보여드립니다.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* 입점 문의 섹션 */}
+        <section className="store-contact-section">
+          <div className="store-contact-content">
+            <div className="store-contact-header">
+              <img src="/Ceo.png" alt="사장님" className="contact-icon" />
+              <h2 className="store-contact-title">입점 문의</h2>
+            </div>
+            <p className="store-contact-description">
+              냠냠픽업과 함께 성장하실 사장님을 모십니다.<br />
+              간편한 주문 관리와 매출 증대의 기회를 경험하세요.
             </p>
+            <div className="store-contact-benefits">
+              <div className="benefit-card">
+                <h3>✓ 무료 입점</h3>
+                <p>초기 비용 없이 시작</p>
+              </div>
+              <div className="benefit-card">
+                <h3>✓ 간편한 관리</h3>
+                <p>직관적인 사장님 앱</p>
+              </div>
+              <div className="benefit-card">
+                <h3>✓ 매출 증대</h3>
+                <p>신규 고객 유입</p>
+              </div>
+            </div>
             <a 
               href="https://docs.google.com/forms/d/e/1FAIpQLSfW92Mjk0H241vr9hcq4I0T9LE7DCYmFI-VyNnNxg7g1KfDCg/viewform?usp=header" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="store-cta-button-large"
+              className="store-contact-button"
             >
               입점 신청하기
             </a>
