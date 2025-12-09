@@ -260,32 +260,38 @@ function App() {
           </button>
         </section>
 
-        {/* 입점 문의 섹션 */}
+        {/* 앱 다운로드 섹션 */}
         <section id="contact" className="contact-section">
           <div className="contact-content">
             <h2 className="section-title">
-              <img src="/Ceo.png" alt="사장님" className="section-title-icon" />
-              입점 문의
+              앱 다운로드
             </h2>
             <p className="contact-description">
-              냠냠픽업과 함께 성장하실 사장님을 모십니다.<br />
-              간편한 주문 관리와 매출 증대의 기회를 경험하세요.
+              iOS와 Android 모두 지원합니다.<br />
+              지금 다운로드하고 주문·픽업을 더 편하게 이용하세요.
             </p>
             <div className="contact-benefits">
               <div className="benefit-item">
-                <h4>✓ 무료 입점</h4>
-                <p>초기 비용 없이 시작</p>
+                <h4>✓ iOS / Android</h4>
+                <p>양 플랫폼 완벽 지원</p>
               </div>
               <div className="benefit-item">
-                <h4>✓ 간편한 관리</h4>
-                <p>직관적인 사장님 앱</p>
+                <h4>✓ 실시간 알림</h4>
+                <p>주문/준비/픽업 푸시 알림</p>
               </div>
               <div className="benefit-item">
-                <h4>✓ 매출 증대</h4>
-                <p>신규 고객 유입</p>
+                <h4>✓ 간편한 주문</h4>
+                <p>예약 주문·즉시 픽업</p>
               </div>
             </div>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfW92Mjk0H241vr9hcq4I0T9LE7DCYmFI-VyNnNxg7g1KfDCg/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="contact-btn">입점 신청하기</a>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfW92Mjk0H241vr9hcq4I0T9LE7DCYmFI-VyNnNxg7g1KfDCg/viewform?usp=header"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact-btn"
+            >
+              다운로드 안내 받기
+            </a>
           </div>
         </section>
       </main>
