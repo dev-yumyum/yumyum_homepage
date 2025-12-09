@@ -228,50 +228,6 @@ function App() {
           </button>
         </section>
 
-        <section className="feature-section">
-          <div className="feature-card">
-            <div className="feature-content">
-              <h3 className="feature-title">
-                편리한 <strong>주문접수 시스템</strong>
-              </h3>
-              <p className="feature-description">
-                간단한 클릭으로 주문 접수부터 완료까지<br />매출관리도 한번에!
-              </p>
-            </div>
-            <div className="feature-image">
-              <div className="full-screen-image">
-                <img src="/주문접수화면.jpeg" alt="주문접수 시스템 화면" />
-              </div>
-            </div>
-          </div>
-          <button className="scroll-down-btn" onClick={scrollToNext} aria-label="다음 섹션으로">
-            <span className="arrow-down">↓</span>
-          </button>
-        </section>
-
-        <section className="feature-section gray">
-          <div className="feature-card">
-            <div className="feature-image">
-              <div className="full-screen-image">
-                <img src="/매출분석1.png" alt="매출관리 화면" />
-              </div>
-            </div>
-            <div className="feature-content">
-              <h3 className="feature-title">
-                <strong>매출관리</strong>
-              </h3>
-              <p className="feature-description">
-                더 이상 감이 아닌 데이터로 보세요<br /><br />
-                가장 잘 팔리는 메뉴부터 시간대별 매출 흐름까지<br />
-                사장님이 궁금한 모든 매출 인사이트를 한눈에 보여드립니다.
-              </p>
-            </div>
-          </div>
-          <button className="scroll-down-btn" onClick={scrollToNext} aria-label="다음 섹션으로">
-            <span className="arrow-down">↓</span>
-          </button>
-        </section>
-
         {/* 앱 소개 섹션 */}
         <section id="app" className="app-section">
           <div className="app-content">
