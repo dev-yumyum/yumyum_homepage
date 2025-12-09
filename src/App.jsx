@@ -115,7 +115,7 @@ function App() {
         <section id="hero" className="hero">
           <div className="hero-content">
             <div className="hero-character">
-              <img src="/test.svg" alt="냠냠 캐릭터" />
+              <img src="/user.png" alt="냠냠 캐릭터" />
             </div>
             <div className="hero-text">
               <h1 className="hero-title">빠르게 주문하고 간편하게 픽업하는</h1>
