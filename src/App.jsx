@@ -284,14 +284,24 @@ function App() {
                 <p>예약 주문·즉시 픽업</p>
               </div>
             </div>
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfW92Mjk0H241vr9hcq4I0T9LE7DCYmFI-VyNnNxg7g1KfDCg/viewform?usp=header"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="contact-btn"
-            >
-              다운로드 안내 받기
-            </a>
+            <div className="app-download-buttons contact-download">
+              <a
+                href="https://play.google.com/store"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="download-btn play"
+              >
+                <span className="download-btn-text">Google Play에서 받기</span>
+              </a>
+              <a
+                href="https://apps.apple.com/kr/app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="download-btn app"
+              >
+                <span className="download-btn-text">App Store에서 받기</span>
+              </a>
+            </div>
           </div>
         </section>
       </main>
