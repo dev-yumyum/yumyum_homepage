@@ -1,5 +1,6 @@
 import './App.css'
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 function App() {
   const [activeSection, setActiveSection] = useState('hero');
@@ -143,6 +144,29 @@ function App() {
               <div className="mock-phone app-screenshot">
                 <img src="/yumyum_main.png" alt="사전 주문 시스템 화면" className="app-screen-image" />
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 사장님 입점문의 섹션 */}
+        <section className="feature-section store-inquiry-section">
+          <div className="feature-card">
+            <div className="feature-image">
+              <div className="store-inquiry-image">
+                <img src="/store.png" alt="냠냠픽업 상점 입점" />
+              </div>
+            </div>
+            <div className="feature-content">
+              <h3 className="feature-title">
+                <strong>사장님 입점문의 하기</strong>
+              </h3>
+              <p className="feature-description">
+                냠냠픽업과 함께 성장하실 사장님을 모십니다.<br />
+                간편한 주문 관리와 매출 증대의 기회를 경험하세요.
+              </p>
+              <Link to="/store" className="store-inquiry-button">
+                입점 상세보기 →
+              </Link>
             </div>
           </div>
         </section>
