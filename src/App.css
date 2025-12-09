@@ -241,6 +241,26 @@ html {
   box-shadow: 0 8px 30px rgba(255, 133, 0, 0.4);
 }
 
+/* Company Intro Section */
+.company-intro-section {
+  background: #f0f0f0;
+}
+
+.company-image {
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-image img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  animation: float 3s ease-in-out infinite;
+}
+
 /* Feature Sections */
 .feature-section {
   padding: 100px 40px;

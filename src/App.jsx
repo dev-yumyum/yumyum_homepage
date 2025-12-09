@@ -304,6 +304,33 @@ function App() {
             </div>
           </div>
         </section>
+
+        {/* 회사소개 섹션 */}
+        <section className="feature-section company-intro-section">
+          <div className="feature-card">
+            <div className="feature-content">
+              <h3 className="feature-title">
+                우리는 맛있는 즐거움을<br /><strong>만드는 사람들입니다</strong>
+              </h3>
+              <p className="feature-description">
+                냠냠픽업의 비전과 이야기를<br />회사소개 페이지에서 확인해보세요.
+              </p>
+              <a 
+                href="https://wmm-page.vercel.app/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="store-inquiry-button"
+              >
+                회사소개 보러가기 →
+              </a>
+            </div>
+            <div className="feature-image">
+              <div className="company-image">
+                <img src="/Yamu.png" alt="냠냠픽업 야무 캐릭터" />
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
 
       <footer className="footer">
