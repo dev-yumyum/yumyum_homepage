@@ -127,6 +127,10 @@
   align-items: center;
 }
 
+.store-feature-section:first-child {
+  padding-top: 150px;
+}
+
 .store-feature-section.gray {
   background: #f8f9fa;
 }

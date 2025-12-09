@@ -18,29 +18,6 @@ function StorePage() {
       </header>
 
       <main className="store-main">
-        {/* 히어로 섹션 */}
-        <section className="store-hero">
-          <div className="store-hero-content">
-            <div className="store-hero-image">
-              <img src="/store.png" alt="냠냠픽업 상점" />
-            </div>
-            <div className="store-hero-text">
-              <h1 className="store-hero-title">냠냠픽업 상점 입점하기</h1>
-              <p className="store-hero-description">
-                우리 시설의 매출을 올려보세요
-              </p>
-              <a 
-                href="https://docs.google.com/forms/d/e/1FAIpQLSfW92Mjk0H241vr9hcq4I0T9LE7DCYmFI-VyNnNxg7g1KfDCg/viewform?usp=header" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="store-cta-button"
-              >
-                바로가기
-              </a>
-            </div>
-          </div>
-        </section>
-
         {/* 실시간 조리 현황 섹션 */}
         <section className="store-feature-section">
           <div className="store-feature-content">
