@@ -32,7 +32,7 @@ function StorePage() {
             </div>
             <div className="store-feature-image">
               <div className="desktop-screen">
-                <img src="/Category All.png" alt="주문접수 시스템" />
+                <img src="/주문접수화면.jpeg" alt="주문접수 시스템" />
               </div>
             </div>
           </div>
