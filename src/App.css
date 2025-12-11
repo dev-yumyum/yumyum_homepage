@@ -366,6 +366,7 @@ html {
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
   width: 300px;
   height: 600px;
+  flex-shrink: 0;
 }
 
 .mock-phone.app-screenshot::before {
@@ -376,8 +377,9 @@ html {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: top center;
+  object-position: center center;
   border-radius: 40px;
+  display: block;
 }
 
 .phone-screen {
