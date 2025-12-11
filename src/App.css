@@ -364,6 +364,8 @@ html {
   overflow: hidden;
   background: transparent;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  height: 600px;
 }
 
 .mock-phone.app-screenshot::before {
