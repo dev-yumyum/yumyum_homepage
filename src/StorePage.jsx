@@ -53,7 +53,12 @@ function StorePage() {
 
         {/* 주문접수 시스템 섹션 */}
         <section className="store-feature-section gray">
-          <div className="store-feature-content reverse">
+          <div className="store-feature-content">
+            <div className="store-feature-image">
+              <div className="desktop-screen">
+                <img src="/주문접수화면.jpeg" alt="주문접수 시스템" />
+              </div>
+            </div>
             <div className="store-feature-text">
               <h2 className="store-feature-title">
                 편리한 <strong>주문접수 시스템</strong>
@@ -62,11 +67,6 @@ function StorePage() {
                 간단한 클릭으로 주문 접수부터 완료까지<br />
                 매출관리도 한번에!
               </p>
-            </div>
-            <div className="store-feature-image">
-              <div className="desktop-screen">
-                <img src="/주문접수화면.jpeg" alt="주문접수 시스템" />
-              </div>
             </div>
           </div>
         </section>
