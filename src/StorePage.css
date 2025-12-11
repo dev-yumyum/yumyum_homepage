@@ -421,6 +421,10 @@
     width: 280px;
     max-height: 560px;
   }
+
+  .store-feature-image .desktop-screen {
+    max-width: 400px;
+  }
 }
 
 @media (max-width: 640px) {
@@ -441,6 +445,10 @@
   .store-feature-image .mock-phone {
     width: 260px;
     max-height: 520px;
+  }
+
+  .store-feature-image .desktop-screen {
+    max-width: 100%;
   }
 
   .store-hero-title {
