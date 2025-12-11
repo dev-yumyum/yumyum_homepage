@@ -18,6 +18,39 @@ function StorePage() {
       </header>
 
       <main className="store-main">
+        {/* 히어로 섹션 */}
+        <section className="store-hero">
+          <div className="store-hero-content">
+            <div className="store-hero-text">
+              <h1 className="store-hero-title">
+                냠냠픽업과 함께<br />
+                <span style={{color: '#FF8500'}}>매출을 올려보세요</span>
+              </h1>
+              <p className="store-hero-description">
+                낮은 수수료, 편리한 관리 시스템으로<br />
+                가게의 성장을 돕습니다.
+              </p>
+              <div className="hero-benefits">
+                <div className="hero-benefit-item">
+                  <div className="benefit-icon">💰</div>
+                  <h3>중개 수수료 1%</h3>
+                  <p>업계 최저 수수료로 부담 없이 시작하세요</p>
+                </div>
+                <div className="hero-benefit-item">
+                  <div className="benefit-icon">📦</div>
+                  <h3>포장 서비스</h3>
+                  <p>픽업 전용 서비스로 매출 증대</p>
+                </div>
+                <div className="hero-benefit-item">
+                  <div className="benefit-icon">👥</div>
+                  <h3>단골손님 관리</h3>
+                  <p>우리가게 단골 고객 확보</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* 주문접수 시스템 섹션 */}
         <section className="store-feature-section gray">
           <div className="store-feature-content reverse">
