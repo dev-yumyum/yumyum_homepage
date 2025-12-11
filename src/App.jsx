@@ -116,7 +116,7 @@ function App() {
         <section id="hero" className="hero">
           <div className="hero-content">
             <div className="hero-character">
-              <img src="/user.png" alt="냠냠 캐릭터" />
+              <img src="/Yamu.png" alt="냠냠 캐릭터" />
             </div>
             <div className="hero-text">
               <h1 className="hero-title">빠르게 주문하고 간편하게 픽업하는</h1>
@@ -134,7 +134,7 @@ function App() {
           <div className="feature-card">
             <div className="feature-image">
               <div className="store-inquiry-image">
-                <img src="/store.png" alt="냠냠픽업 상점 입점" />
+                <img src="/Category All.png" alt="냠냠픽업 상점 입점" />
               </div>
             </div>
             <div className="feature-content">
