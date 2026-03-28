@@ -32,7 +32,6 @@ function App() {
       observer.observe(el);
     });
 
-    // 섹션 활성화 감지
     const sectionObserver = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -82,12 +81,11 @@ function App() {
           <nav className="nav">
             <a href="#service">서비스 소개</a>
             <a href="#app">앱 소개</a>
-            <a href="#contact">입점 문의</a>
+            <a href="#contact">앱 다운로드</a>
           </nav>
         </div>
       </header>
 
-      {/* 우측 네비게이션 바 */}
       <nav className="side-nav">
         <button 
           className={`side-nav-dot ${activeSection === 'hero' ? 'active' : ''}`}
@@ -107,12 +105,12 @@ function App() {
         <button 
           className={`side-nav-dot ${activeSection === 'contact' ? 'active' : ''}`}
           onClick={() => scrollToSection('contact')}
-          aria-label="입점 문의로 이동"
+          aria-label="앱 다운로드로 이동"
         />
       </nav>
 
       <main className="main">
-        {/* 히어로 섹션 */}
+        {/* 히어로 */}
         <section id="hero" className="hero">
           <div className="hero-content">
             <div className="hero-character">
@@ -121,15 +119,14 @@ function App() {
             <div className="hero-text">
               <h1 className="hero-title">빠르게 주문하고 간편하게 픽업하는</h1>
               <p className="hero-subtitle">냠냠픽업</p>
-              <p className="hero-description">음식 주문의 새로운 기준,<br />기다림 없이 바로 픽업하세요.</p>
+              <p className="hero-description">
+                음식 주문의 새로운 기준,<br />기다림 없이 바로 픽업하세요.
+              </p>
             </div>
           </div>
-          <button className="scroll-down-btn" onClick={scrollToNext} aria-label="다음 섹션으로">
-            <span className="arrow-down">↓</span>
-          </button>
         </section>
 
-        {/* 사장님 입점문의 섹션 */}
+        {/* 사장님 입점문의 */}
         <section className="feature-section store-inquiry-section">
           <div className="feature-card">
             <div className="feature-image">
@@ -142,7 +139,7 @@ function App() {
                 <strong>사장님 입점문의 하기</strong>
               </h3>
               <p className="feature-description">
-                냠냠픽업과 함께 성장하실 사장님을 모십니다.<br />
+                냠냠픽업과 함께 성장하실 사장님을 모십니다.
                 간편한 주문 관리와 매출 증대의 기회를 경험하세요.
               </p>
               <Link to="/store" className="store-inquiry-button">
@@ -152,15 +149,16 @@ function App() {
           </div>
         </section>
 
-        {/* 서비스 소개 섹션 */}
+        {/* 서비스 소개 */}
         <section id="service" className="feature-section">
           <div className="feature-card">
             <div className="feature-content">
               <h3 className="feature-title">
-                기다림없이 빠른!<br /><br /><strong>사전 주문 서비스</strong>
+                기다림없이 빠른<br /><strong>사전 주문 서비스</strong>
               </h3>
               <p className="feature-description">
-                원하는 메뉴를 미리 주문하고<br />도착 시간에 맞춰 픽업하세요.
+                원하는 메뉴를 미리 주문하고
+                도착 시간에 맞춰 픽업하세요.
               </p>
             </div>
             <div className="feature-image">
@@ -183,7 +181,8 @@ function App() {
                 <strong>다양한 맛집</strong>을 한곳에서
               </h3>
               <p className="feature-description">
-                우리 동네 인기 맛집부터 숨은 맛집까지,<br />리뷰와 평점으로 쉽게 선택하세요.
+                우리 동네 인기 맛집부터 숨은 맛집까지,
+                리뷰와 평점으로 쉽게 선택하세요.
               </p>
             </div>
           </div>
@@ -196,7 +195,8 @@ function App() {
                 다양한 할인 메뉴로<br /><strong>합리적인 가격</strong>
               </h3>
               <p className="feature-description">
-                매일 새로운 할인 메뉴와<br />즉시 할인부터 쿠폰까지 다양한 혜택을 받으세요.
+                매일 새로운 할인 메뉴와
+                즉시 할인부터 쿠폰까지 다양한 혜택을 받으세요.
               </p>
             </div>
             <div className="feature-image">
@@ -216,56 +216,49 @@ function App() {
             </div>
             <div className="feature-content">
               <h3 className="feature-title">
-                <strong>실시간 조리 현황</strong> 한눈에 확인
+                <strong>실시간 조리 현황</strong> 한눈에
               </h3>
               <p className="feature-description">
-                주문부터 조리 완료까지 실시간으로 확인하고<br />정확한 픽업 시간을 알려드립니다.
+                주문부터 조리 완료까지 실시간으로 확인하고
+                정확한 픽업 시간을 알려드립니다.
               </p>
             </div>
           </div>
-          <button className="scroll-down-btn" onClick={scrollToNext} aria-label="다음 섹션으로">
-            <span className="arrow-down">↓</span>
-          </button>
         </section>
 
-        {/* 앱 소개 섹션 */}
+        {/* 앱 소개 */}
         <section id="app" className="app-section">
           <div className="app-content">
             <h2 className="section-title">냠냠픽업 App</h2>
             <div className="app-features">
               <div className="app-feature-item">
-                <div className="app-icon"></div>
+                <div className="app-icon">📱</div>
                 <h4>간편한 주문</h4>
                 <p>몇 번의 터치만으로<br />손쉽게 주문 완료</p>
               </div>
               <div className="app-feature-item">
-                <div className="app-icon"></div>
+                <div className="app-icon">⚡</div>
                 <h4>시간 절약</h4>
                 <p>기다림 없이<br />바로 픽업</p>
               </div>
               <div className="app-feature-item">
-                <div className="app-icon"></div>
+                <div className="app-icon">🏷️</div>
                 <h4>할인 혜택</h4>
                 <p>앱 전용<br />특별 할인</p>
               </div>
               <div className="app-feature-item">
-                <div className="app-icon"></div>
+                <div className="app-icon">🎁</div>
                 <h4>리워드</h4>
                 <p>주문할수록<br />쌓이는 포인트</p>
               </div>
             </div>
           </div>
-          <button className="scroll-down-btn scroll-down-light" onClick={scrollToNext} aria-label="다음 섹션으로">
-            <span className="arrow-down">↓</span>
-          </button>
         </section>
 
-        {/* 앱 다운로드 섹션 */}
+        {/* 앱 다운로드 */}
         <section id="contact" className="contact-section">
           <div className="contact-content">
-            <h2 className="section-title">
-              앱 다운로드
-            </h2>
+            <h2 className="section-title">앱 다운로드</h2>
             <p className="contact-description">
               iOS와 Android 모두 지원합니다.<br />
               지금 다운로드하고 주문·픽업을 더 편하게 이용하세요.
@@ -305,7 +298,7 @@ function App() {
           </div>
         </section>
 
-        {/* 회사소개 섹션 */}
+        {/* 회사소개 */}
         <section className="feature-section company-intro-section">
           <div className="feature-card">
             <div className="feature-content">
@@ -313,7 +306,8 @@ function App() {
                 우리는 맛있는 즐거움을<br /><strong>만드는 사람들입니다</strong>
               </h3>
               <p className="feature-description">
-                냠냠픽업의 비전과 이야기를<br />회사소개 페이지에서 확인해보세요.
+                냠냠픽업의 비전과 이야기를
+                회사소개 페이지에서 확인해보세요.
               </p>
               <a 
                 href="https://wmm-page.vercel.app/" 
